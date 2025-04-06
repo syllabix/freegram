@@ -1,3 +1,6 @@
+use bevy::prelude::*;
+use client::FreegramPlugin;
+
 fn main() {
-    println!("Hello, world!");
+    App::new().add_plugins(FreegramPlugin).run();
 }

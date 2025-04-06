@@ -1,0 +1,5 @@
+# WASM Configuration
+# Specifies wasm-server-runner as the runner for WASM builds
+# This allows testing WASM builds locally during development
+[target.wasm32-unknown-unknown]
+runner = "wasm-server-runner"
